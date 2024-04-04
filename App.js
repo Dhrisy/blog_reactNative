@@ -16,7 +16,7 @@ const navigator = createStackNavigator({
 }, {
   initialRouteName: 'Index',
   defaultNavigationOptions: { // Fixed typo here
-    title: 'Index Screen',
+    title: 'Blogs',
    
   }
 });

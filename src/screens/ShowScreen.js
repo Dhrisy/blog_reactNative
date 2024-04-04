@@ -15,7 +15,10 @@ function ShowScreen({ navigation }) {
   return (
     <View>
         <Text>
-            {blogPost.title}
+            Title of the blog:   {blogPost.title}
+        </Text>
+        <Text>
+            Content of the blog:   {blogPost.content}
         </Text>
        
     </View>

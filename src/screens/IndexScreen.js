@@ -21,7 +21,7 @@ function IndexScreen({ navigation }) {
             listener.remove();
         }
 
-    })
+    },[])
     return (
 
         <View style={styles.container}>
@@ -42,6 +42,7 @@ function IndexScreen({ navigation }) {
                                     // console.log(data.id);
                                     console.log(item.title);
                                     deleteBlogPost(item.id);
+                                    getBlogPosts();
                                 }}
                             >
                                 <AntDesign name="delete" size={24} color="black" />
